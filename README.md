@@ -7,6 +7,43 @@ A template for very basic typescript nodejs module template with:
 - eslint integration
 - prettier for code formatting
 
+---
+
+## project strcture
+
+### source root
+./src
+
+### type root dir
+./src/types
+
+### test root
+./test
+
+### compile output
+./dist/lib
+
+### compile types
+./dist/types
+
+---
+
+## commands
+
+build: `npm run build`
+
+watch build: `npm run watch`
+
+test: `npm test`
+
+watch test: `npm run test:watch`
+
+format code: `npm run format`
+
+lint: `npm run lint`
+
+---
+
 ## VS code debug launch config
 
 ```json
